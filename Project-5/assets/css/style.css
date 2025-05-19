@@ -193,3 +193,74 @@ h3.title {
     line-height: 171.429%;
     font-size: 1.4rem;
 }
+
+.hero__mobile__phone {
+    position: relative;
+}
+
+.hero__mobile__phone__content {
+    position: absolute;
+    top: 52px;
+    right: 23px;
+    left: 23px;
+    bottom: 42px;
+}
+
+.card {
+    position: relative;
+    background: linear-gradient(76.13deg, #8679e4 11.52%, #7264d6 70.78%);
+
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 16px;
+}
+
+.card__decor {
+    position: absolute;
+}
+
+.card__decor--top {
+    left: 0;
+    top: 0;
+}
+
+.card__decor--bottom {
+    right: 0;
+    bottom: 0;
+}
+
+.card__content {
+    position: relative;
+    color: #fff;
+}
+
+.card__header {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.card__label {
+    font-size: 1.4rem;
+}
+
+.card__balance {
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.card__details {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px 12px;
+    margin-top: 32px;
+}
+
+.card__text {
+    font-size: 1rem;
+}
+
+.card__value {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
